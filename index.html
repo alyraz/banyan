@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -8,15 +7,42 @@
 			body {
 				background: #000;
 			}
+			
 			img {
-				display: block; 
+				display: block;
 				margin: 0 auto;
+			}
+			
+			input {
+				background: #111;
+				border: 1px solid #333;
+				border-radius: 2px;
+				color: #AAA;
+				display: block;
+				font: 300 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+				letter-spacing: 3px;
+				margin: 0 auto;
+				outline: 0;
+				padding: 5px;
+				text-align: center;
+				width: 250px;
+			}
+			input:-moz-placeholder {
+				color: #AAA;
+			}
+			input:-ms-input-placeholder {
+				color: #AAA;
+			}
+			input::-webkit-input-placeholder {
+				color: #AAA;
 			}
 		</style>
 	</head>
-
 	<body>
-		<img src="banyanlanding.png" width="800" height="600" alt="BanYan Art & Commerce">
+		<img src="banyanlanding.png" width="800" height="600" alt="BanYan Art &amp; Commerce">
+		
+		<form action="http://xola.us5.list-manage.com/subscribe/post?u=3d142645145fdd12df18d0b79&amp;id=6414454750" method="post">
+			<input type="text" name="EMAIL" placeholder="You know what to do.">
+		</form>
 	</body>
-
 </html>
